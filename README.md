@@ -1,51 +1,76 @@
-# 🏦 Bank Profitability Dashboard  
+# 💼 Finance Analytics Mini Series  
 
-Analyze **branch-wise** and **region-wise** performance of a bank using  
-**SQL + Pandas + Matplotlib** — find which branches are profit engines and which ones bleed due to NPAs.  
+A collection of **3 end-to-end financial analytics projects** built using  
+**Python · SQL · Pandas · Matplotlib** — turning raw data into real business insights.  
 
----
-
-## 💡 Overview  
-
-Every quarter, banks report numbers for each branch: income, expenses, NPAs, deposits, and loans.  
-This project turns those figures into insights:  
-
-- ✅ Profit per branch and region  
-- 💰 Profit margin % and NPA ratio %  
-- 🔄 Loan-to-deposit ratio %  
-- 📉 Profit trend by quarter  
+Each project is designed to mirror what a finance/data analyst would actually do in the field — analyzing earnings, risk, and profitability using clean datasets and visual dashboards.  
 
 ---
 
-## 📈 Outputs  
+## 🚀 Projects  
 
-### 🟢 Profit by Branch  
-Compare profitability across all branches.  
-
-### 🟠 Profit Margin vs NPA Ratio  
-Shows which branches balance efficiency and credit risk.  
-
-### 🔵 Average Profit Margin by Region  
-Breakdown of profitability across regions.  
-
-### 🟣 Profit Trend by Quarter  
-Total profit growth over FY25 — quarter by quarter.  
+### 🧾 [1. Earnings Season Visualizer](./01-earnings-season-visualizer)  
+**Goal:** Analyze a company’s quarterly financial performance.  
+- Tracks **Revenue**, **Net Profit**, and **EPS** across quarters.  
+- Calculates **QoQ / YoY growth**, **Net Margin**, and **EPS surprise**.  
+- Visualizes results with bar-line combo charts.  
+**Stack:** `SQLite` · `Pandas` · `Matplotlib`  
+📊 *Shows how corporate performance evolves each quarter.*
 
 ---
 
-## 🧮 Key Metrics  
-
-| Metric | Formula |
-|---------|----------|
-| **Profit (₹ cr)** | Total Income − Total Expense |
-| **Profit Margin %** | Profit / Income × 100 |
-| **NPA Ratio %** | NPA / Loan Book × 100 |
-| **Loan–Deposit Ratio %** | Loan Book / Deposits × 100 |
+### 💹 [2. Portfolio Risk & Return Analyzer](./02-portfolio-risk-return)  
+**Goal:** Evaluate portfolio risk and optimize returns.  
+- Computes **annualized return, volatility, Sharpe ratio**.  
+- Displays **correlation heatmap** for diversification.  
+- Simulates **efficient frontier** & identifies **max-Sharpe portfolio**.  
+**Stack:** `Pandas` · `NumPy` · `Matplotlib` · `SQL`  
+📈 *A quant-style deep dive into portfolio optimization.*
 
 ---
 
-## 🚀 Future Ideas  
+### 🏦 [3. Bank Profitability Dashboard](./03-bank-profitability-dashboard)  
+**Goal:** Diagnose branch-level profitability.  
+- Calculates **Profit**, **Profit Margin %**, **NPA Ratio %**, **Loan-Deposit Ratio %**.  
+- Visualizes **Profit by Branch**, **Margin vs NPA**, **Regional Margin**, and **Quarterly Profit Trend**.  
+**Stack:** `SQLite` · `Pandas` · `Matplotlib`  
+📉 *Gives a 360° view of branch and region performance.*
 
-- Risk-adjusted profit metric → `Profit ÷ NPA Ratio`  
-- Add quarterly comparisons for every branch  
-- Create a Streamlit version for interactive dashboards
+---
+
+## 💻 Tech Stack  
+
+| Tool / Library | Purpose |
+|----------------|----------|
+| **Python** | Core programming |
+| **SQLite (SQL)** | Querying and aggregation |
+| **Pandas** | Data manipulation |
+| **Matplotlib** | Visualization |
+| **Jupyter Notebook** | Interactive analysis |
+
+---
+
+## 🧠 Key Learning Areas  
+
+- Financial ratio analysis & trend tracking  
+- Risk–return and portfolio optimization  
+- Profitability and efficiency metrics  
+- Translating financial data into dashboards  
+
+---
+
+## 🔗 Connect  
+
+If you liked this series or want to collaborate on fintech/data projects — let’s connect!  
+📍 **LinkedIn:** [Your LinkedIn Profile URL]  
+📍 **GitHub:** [Your GitHub Username]  
+
+---
+
+### ✨ Summary  
+
+**3 Projects. Real Finance. Real Analysis.**  
+From corporate earnings to investment portfolios to bank dashboards —  
+this repo proves data analytics isn’t just about numbers, it’s about *narratives.*  
+
+#FinanceAnalytics #PythonForFinance #FinTech #DataScience #PortfolioProjects
